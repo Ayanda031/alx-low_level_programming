@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
- * main - Entery point
- * Description: 'prints _putchar to stdout'
+ * main - print _putchar
+ * is written by Ayanda
  * Return: 0
  */
+
 int main(void)
 {
-	_putchar(',');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');

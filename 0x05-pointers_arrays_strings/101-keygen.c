@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - genrates random valid password for the
- * program 101-crackme
+ * main - program that generates random valid
+ * passwords for the program 101-crackme
+ *
  * Return: 0
  */
 
@@ -19,7 +20,7 @@ int main(void)
 	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand() % 78;
-		sum += (pass[1] + '0');
+		sum += (pass[i] + '0');
 		putchar(pass[i] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{

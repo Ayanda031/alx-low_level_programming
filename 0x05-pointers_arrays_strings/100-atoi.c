@@ -1,5 +1,5 @@
 #include "main.h"
-#include <<stdio.h>
+#include <stdio.h>
 /**
  * _atoi - convert a string to an interger
  * @s: the pointer to convert
